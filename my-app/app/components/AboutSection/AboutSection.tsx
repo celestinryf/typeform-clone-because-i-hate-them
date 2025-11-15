@@ -1,6 +1,6 @@
 "use client";
 
-import uhackstats from '../../../../public/assets/uhackstats.png';
+import uhackstats from '../../../public/assets/uhackstats.png';
 
 export default function AboutSection() {
   return (
