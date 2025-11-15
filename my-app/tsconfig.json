@@ -29,6 +29,6 @@
     ".next/types/**/*.ts",
     ".next/dev/types/**/*.ts",
     "**/*.mts"
-, "src/app/scripts/google-apps-script-judge.js", "src/app/scripts/google-apps-script.js", "src/app/scripts/google-apps-script-volunteer.js"  ],
+, "app/scripts/google-apps-script-judge.js", "app/scripts/google-apps-script.js", "app/scripts/google-apps-script-volunteer.js"  ],
   "exclude": ["node_modules"]
 }
