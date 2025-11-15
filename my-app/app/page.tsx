@@ -1,4 +1,4 @@
-"use client"; // at the very top
+"use client"; // at the very top 
 export const dynamic = 'force-dynamic'; // optional, forces Next.js to treat as dynamic
 
 import NavBar from './components/NavBar/NavBar';
