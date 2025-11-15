@@ -12,6 +12,7 @@ export default function Page() {
   return (
     <div style={{ fontFamily: "'Work Sans', sans-serif", color: '#fff', position: 'relative' }}>
       <NavBar />
+      /** */
       <div id="hero">
         <HeroSection />
       </div>
