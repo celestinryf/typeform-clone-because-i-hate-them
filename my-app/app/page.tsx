@@ -1,4 +1,4 @@
-"use client";
+"use client"; // at the very top
 
 import NavBar from './components/NavBar/NavBar';
 import HeroSection from './components/HeroSection/HeroSection';
@@ -12,25 +12,12 @@ export default function Page() {
   return (
     <div style={{ fontFamily: "'Work Sans', sans-serif", color: '#fff', position: 'relative' }}>
       <NavBar />
-      /** */
-      <div id="hero">
-        <HeroSection />
-      </div>
-      <div id="about">
-        <AboutSection />
-      </div>
-      <div id="tracks">
-        <TracksSection />
-      </div>
-      <div id="schedule">
-        <ScheduleSection />
-      </div>
-      <div id="faq">
-        <FAQSection />
-      </div>
-      <div id="form">
-        <Form />
-      </div>
+      <div id="hero"><HeroSection /></div>
+      <div id="about"><AboutSection /></div>
+      <div id="tracks"><TracksSection /></div>
+      <div id="schedule"><ScheduleSection /></div>
+      <div id="faq"><FAQSection /></div>
+      <div id="form"><Form /></div>
     </div>
   );
 }
