@@ -8,7 +8,7 @@ const nextConfig: NextConfig = {
     ignoreBuildErrors: false, // ensure TS errors fail the build
   },
   // If you were experimenting with 'reactCompiler', it is no longer needed
-  // output: 'export', <-- DON'T use this if you have client components/forms
+  // output: 'export', <-- DON'T use this if you have client components/forms 
 };
 
 export default nextConfig;
