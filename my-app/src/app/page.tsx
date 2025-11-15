@@ -8,7 +8,7 @@ import FAQSection from './components/FAQSection/FAQSection';
 import ScheduleSection from './components/ScheduleSection/ScheduleSection';
 import Form from './components/Form/Form';
 
-export default function LandingPage() {
+export default function Page() {
   return (
     <div style={{ fontFamily: "'Work Sans', sans-serif", color: '#fff', position: 'relative' }}>
       <NavBar />
